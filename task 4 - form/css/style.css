@@ -1,0 +1,70 @@
+.ts-form-page {
+	font-family: Helvetica, sans-serif;
+}
+
+.ts-form-page_inner {
+	width: 600px;
+	height: 600px;
+	margin: 50px auto;
+	border-bottom: 2px solid black;
+}
+
+.ts-form-action {
+	height: 100%;
+}
+
+.ts-form-action__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.ts-form-action__title-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-end;	
+}
+
+.ts-subtitle-form {
+	background-color: #E9E9E9;	
+}
+
+.ts-title-form {
+	font-size: 25px;
+}
+
+.ts-input-label {
+	font-size: 20px;
+}
+
+.ts-input-choices {
+
+}
+
+.ts-choices__item {
+	display: flex;
+	flex-direction: row;
+	height: 20px;
+	margin: 10px 0;
+	border: 1px solid #E9E9E9;
+}
+
+.ts-button {
+	background-color: #3498db;	
+	width: 100%;
+	border-radius: 5px;
+}
+
+.ts-action-form__button {
+	width: 200px;
+	margin: 20px 0;
+}
+
+
+.ts-button__inner {
+	width: 100%;
+	padding: 10px 0;
+}
+
