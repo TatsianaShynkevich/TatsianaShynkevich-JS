@@ -1,0 +1,61 @@
+.ts-calendar__wrapper {
+	width: 730px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;	
+	background-color: #ECF0F1;
+}
+
+
+.ts-calendar__header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.ts-btn {
+	width: 20px;
+	height:20px;
+}
+
+.ts-calendar__date-container {
+	display: flex;
+	flex-wrap: wrap;	
+	width: 100%;
+}
+
+.ts-calendar__day-name-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.ts-header__day-names {
+	width: 100px;	
+	margin: 1px;	
+	border: 1px solid gray;	
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #DADFE1;	
+}
+
+.ts-calendar-date  {
+	text-align: center;
+	background-color: #DADFE1;		
+}
+
+.ts-calendar__empty-date {
+	width: 100px;	
+	margin: 1px;
+	border: 1px solid gray;
+}
+
+.ts-calendar__date-item {
+	width: 100px;		
+	margin: 1px;	
+	border: 1px solid gray;
+}

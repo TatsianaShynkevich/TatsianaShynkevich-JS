@@ -1,0 +1,2 @@
+    weekName = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+    monthName = ["january","febrary","march","april","may","june","jule","august","september","october","november","december"];
